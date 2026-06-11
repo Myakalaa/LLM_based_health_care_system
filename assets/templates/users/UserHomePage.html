@@ -1,0 +1,41 @@
+{% extends 'users/userbase.html'%}
+{%load static%}
+{%block contents%}
+<section class="py-12 px-6 max-w-5xl mx-auto bg-white rounded-xl shadow-md mt-10">
+    <h2 class="text-2xl font-semibold mb-4">Overview</h2>
+        <h2>About Ship Cyber-Physical System (SCPS)</h2>
+        <p>
+            Ship cyber-physical system (SCPS) is a complex system that integrates advanced information and communication
+            technology to achieve efficient energy management and navigation plans. Thus, SCPS is susceptible to cyber
+            attacks due
+            to increased exposed attack surfaces, which poses significant risks to power and navigation management.
+        </p>
+        <p>
+            The interdependence among the navigation, power, and communication management might amplify the impacts of
+            cyber attacks
+            to induce cascading failures. However, the existing research lacks a robust systematic strategy against
+            cyber attacks
+            considering interdependence features.
+        </p>
+        <p>
+            Therefore, this paper proposes a transportation-energy-communication integrated architecture to
+            collaboratively optimize
+            navigation planning, power management, and networking scheduling. The network model integrates
+            time-sensitive networking
+            (TSN) to improve data transmission reliability and determinacy against cyber attacks.
+        </p>
+        <p>
+            Based on the architecture, the impacts of two typical types of cyber attacks are modeled, including data
+            availability and
+            control signal attacks. A robust cyber-physical defense strategy is formulated into a tri-level MINLP
+            problem to minimize
+            load shedding and voyage distance reduction while saving operation costs by identifying the worst case. To
+            reduce
+            computation complexity, the problem after linearization is decomposed based on the time scale of cyber and
+            physical layers.
+            Case studies indicate that the proposed strategy improves system resilience to conventional strategies.
+        </p>
+    </section>
+</main>
+
+{%endblock%}

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+
+<section class="py-12 px-4 max-w-xl mx-auto bg-white rounded-xl shadow-md mt-10">
+  <h2 class="text-2xl font-semibold text-center text-blue-700 mb-6">User Login Form</h2>
+
+  <form action="{% url 'UserLoginCheck' %}" method="POST"
+        class="bg-gray-50 p-6 rounded-lg shadow-md w-full">
+    {% csrf_token %}
+
+    <div class="mb-4">
+      <label for="loginid" class="block text-sm font-medium text-gray-700 mb-1">Login ID</label>
+      <input type="text" name="loginid" id="loginid" required
+             placeholder="Enter Login ID"
+             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+    </div>
+
+    <div class="mb-4">
+      <label for="pswd" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+      <input type="password" name="pswd" id="pswd" required
+             placeholder="Enter Password"
+             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+    </div>
+
+    <div class="flex justify-between gap-4">
+      <button type="submit"
+              class="w-full bg-blue-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-700 transition">
+        Login
+      </button>
+      <button type="reset"
+              class="w-full bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded-lg hover:bg-gray-400 transition">
+        Reset
+      </button>
+    </div>
+
+    {% if messages %}
+    <div class="text-green-600 text-center mt-4">
+      {% for message in messages %}
+        {{ message }}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </form>
+</section>
+
+{% endblock %}

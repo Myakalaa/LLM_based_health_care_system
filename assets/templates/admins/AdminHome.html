@@ -1,0 +1,35 @@
+{% extends 'admins/adminbase.html'%}
+{%load static%}
+{%block contents%}
+<section class="py-12 px-6 max-w-5xl mx-auto bg-white rounded-xl shadow-md mt-10">
+    <h2 class="text-2xl font-semibold mb-4">Overview</h2>
+    <p class="mb-4">
+        In the dynamic landscape of cybersecurity and cyber warfares, Cyber Threat Intelligence (CTI) is increasingly
+        relied on for gathering and sharing the latest information about threats and their trends.
+    </p>
+    <p class="mb-4">
+        Current CTI sharing methods (e.g., ISACs, automated STIX/TAXII platforms), face challenges in terms of
+        scalability, trust, and data quality issues. This is because they often lack systematic metrics for evaluating
+        the quality and relevance of the threat data that are being shared.
+    </p>
+    <p class="mb-4">
+        Moreover, they do not offer any mechanism to enable participating organizations to autonomously make decisions
+        as to what Threat Intelligence providers to request and share data from/to.
+    </p>
+    <p class="mb-4">
+        To address these limitations, we propose a novel Threat Intelligence sharing approach based on coalitional game
+        theory. We first propose a set of metrics that enable organizations to assess the effectiveness of the shared
+        Threat Intelligence data.
+    </p>
+    <p class="mb-4">
+        Based on these metrics, we propose a preference function and a coalition formation algorithm that enable
+        organizations to autonomously join and leave Threat Intelligence coalitions until reaching a Nash-Stable
+        situation wherein no organization has incentive to leave its current coalition and join another one.
+    </p>
+    <p>
+        Experiments suggest that our solution significantly improves the Mean Time to Detect (MTTD), Mean Time to
+        Respond (MTTR) and Containment Rate.
+    </p>
+</section>
+
+{%endblock%}

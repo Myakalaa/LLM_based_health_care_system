@@ -1,0 +1,501 @@
+patient_id,age,gender,heart_rate,blood_pressure,temperature,oxygen_saturation,symptoms,risk_score
+P0001,56,F,74,120/77,98.5,98,"headache, fever",1
+P0002,70,F,88,131/75,97.5,99,"shortness of breath, anxiety",3
+P0003,29,F,81,121/86,98.4,98,"chest pain, anxiety",0
+P0004,45,F,75,124/84,98.6,99,"fever, joint pain",0
+P0005,26,M,77,113/83,98.9,96,"cough, fever",0
+P0006,19,F,74,116/81,98.3,98,"abdominal pain, joint pain",0
+P0007,59,F,81,127/81,99.1,97,"cough, fever",2
+P0008,65,M,72,133/77,98.9,96,"cough, fever",2
+P0009,70,F,90,144/82,97.7,98,"shortness of breath, anxiety",4
+P0010,42,M,68,110/81,98.0,98,"fatigue, fever",1
+P0011,56,F,68,116/78,98.6,97,"shortness of breath, joint pain",2
+P0012,52,M,62,114/84,98.7,96,"cough, fatigue",2
+P0013,72,M,78,126/78,98.7,97,"fever, cough",2
+P0014,30,M,66,126/89,98.5,99,"dizziness, fever",1
+P0015,24,M,78,111/79,98.9,96,"cough, fatigue",0
+P0016,45,F,71,121/89,99.0,98,"cough, fever",1
+P0017,45,M,66,110/70,97.9,97,"shortness of breath, joint pain",1
+P0018,50,M,69,121/84,97.8,99,"cough, nausea",1
+P0019,19,M,76,114/86,99.2,98,"cough, fatigue",1
+P0020,19,F,81,114/70,98.6,97,"anxiety, chest pain",0
+P0021,61,F,70,142/73,97.6,99,"cough, joint pain",3
+P0022,65,F,65,128/75,98.7,98,"fever, fatigue",2
+P0023,36,F,62,128/89,98.6,99,"dizziness, fatigue",1
+P0024,67,M,94,129/72,97.9,99,"chest pain, anxiety",3
+P0025,74,F,92,136/71,99.2,97,"fatigue, cough",5
+P0026,49,M,82,118/78,98.1,99,"chest pain, shortness of breath",0
+P0027,41,F,83,110/89,97.6,99,"chest pain, anxiety",0
+P0028,37,F,62,125/72,99.2,97,"fever, cough",2
+P0029,19,F,62,125/78,97.8,99,"dizziness, fever",1
+P0030,29,M,78,123/75,99.2,98,"fever, cough",1
+P0031,44,M,61,110/84,98.3,96,"shortness of breath, dizziness",1
+P0032,63,M,70,122/78,99.1,96,"cough, fatigue",2
+P0033,70,M,67,147/70,97.6,96,"joint pain, fatigue",5
+P0034,75,M,72,133/87,98.5,97,"shortness of breath, fatigue",3
+P0035,50,M,70,125/76,98.0,98,"dizziness, chest pain",0
+P0036,53,M,79,110/77,98.7,99,"fever, cough",1
+P0037,68,M,79,147/71,97.7,98,"shortness of breath, abdominal pain",4
+P0038,39,M,79,119/75,98.0,98,"fever, cough",0
+P0039,21,F,72,129/84,98.7,99,"cough, fatigue",0
+P0040,77,F,94,138/86,98.2,98,"anxiety, chest pain",4
+P0041,43,M,80,118/81,98.2,97,"shortness of breath, cough",0
+P0042,18,F,66,114/72,97.9,99,"fever, shortness of breath",1
+P0043,47,F,79,114/81,97.5,97,"abdominal pain, shortness of breath",0
+P0044,71,M,68,121/89,98.1,97,"abdominal pain, fever",3
+P0045,66,F,91,139/81,98.2,99,"shortness of breath, anxiety",4
+P0046,78,M,75,124/81,98.2,96,"fatigue, dizziness",2
+P0047,25,M,69,111/88,98.0,99,"shortness of breath, dizziness",1
+P0048,78,M,68,129/74,98.8,99,"fatigue, fever",3
+P0049,52,F,63,127/86,98.8,99,"fever, fatigue",2
+P0050,49,M,71,126/82,98.8,98,"cough, fatigue",0
+P0051,34,M,79,125/82,99.0,96,"fatigue, cough",1
+P0052,36,F,68,116/83,98.7,99,"fever, fatigue",1
+P0053,64,F,85,124/72,98.5,99,"shortness of breath, chest pain",1
+P0054,53,M,82,125/76,97.7,97,"anxiety, chest pain",1
+P0055,31,M,64,112/80,98.7,98,"cough, fatigue",1
+P0056,75,F,81,148/75,97.6,96,"anxiety, chest pain",4
+P0057,67,M,90,121/74,98.4,97,"chest pain, shortness of breath",2
+P0058,65,M,65,141/89,97.9,98,"nausea, chest pain",4
+P0059,44,F,78,116/72,97.9,97,"shortness of breath, fever",0
+P0060,79,M,92,136/70,97.9,97,"chest pain, anxiety",4
+P0061,62,F,77,148/84,99.0,97,"fatigue, cough",4
+P0062,77,M,68,122/88,99.1,97,"fatigue, fever",4
+P0063,66,F,79,120/72,99.0,96,"fever, fatigue",3
+P0064,27,F,75,117/75,98.3,99,"headache, cough",0
+P0065,67,F,92,124/78,97.9,98,"anxiety, chest pain",3
+P0066,34,M,60,129/82,98.7,96,"cough, fatigue",1
+P0067,52,M,65,127/88,98.7,98,"cough, fatigue",2
+P0068,27,F,77,122/74,97.5,96,"nausea, fatigue",0
+P0069,42,F,76,122/70,98.3,98,"fever, cough",0
+P0070,22,F,62,114/74,98.8,98,"fatigue, cough",1
+P0071,31,M,73,110/88,98.0,99,"abdominal pain, cough",0
+P0072,71,M,91,137/81,98.9,99,"cough, fatigue",4
+P0073,47,M,84,126/85,98.3,98,"shortness of breath, chest pain",0
+P0074,38,F,61,120/88,99.0,99,"fever, cough",2
+P0075,67,F,82,149/84,98.2,98,"chest pain, anxiety",4
+P0076,74,F,65,143/84,98.2,98,"abdominal pain, dizziness",5
+P0077,34,F,79,114/71,98.6,97,"fever, dizziness",0
+P0078,49,M,77,128/88,98.9,97,"cough, fever",0
+P0079,39,M,65,110/74,98.3,97,"shortness of breath, fatigue",1
+P0080,64,M,86,134/80,99.1,96,"cough, fatigue",3
+P0081,53,M,67,126/72,97.8,98,"joint pain, cough",2
+P0082,76,F,83,126/72,99.0,97,"fatigue, fever",3
+P0083,77,M,82,145/75,98.4,98,"shortness of breath, anxiety",4
+P0084,54,F,69,116/86,97.9,97,"shortness of breath, dizziness",2
+P0085,62,F,79,123/84,98.8,98,"cough, fatigue",1
+P0086,36,F,68,114/75,99.0,99,"cough, fever",2
+P0087,73,M,77,125/74,99.1,96,"cough, fever",3
+P0088,23,F,82,125/73,98.9,97,"fever, cough",0
+P0089,48,F,82,118/72,98.4,99,"anxiety, shortness of breath",0
+P0090,41,M,65,111/89,99.1,99,"fever, fatigue",2
+P0091,71,M,94,143/75,98.6,96,"cough, fever",5
+P0092,28,F,78,122/81,97.8,97,"fever, nausea",0
+P0093,43,F,65,114/80,99.1,96,"fatigue, fever",2
+P0094,50,F,77,119/74,97.6,99,"abdominal pain, cough",0
+P0095,28,M,83,115/72,98.1,96,"anxiety, shortness of breath",0
+P0096,77,F,82,133/80,99.1,99,"fatigue, fever",4
+P0097,18,F,81,117/80,98.9,97,"cough, fever",0
+P0098,38,M,64,128/83,98.4,99,"nausea, fatigue",1
+P0099,40,M,74,110/86,99.0,98,"fever, cough",1
+P0100,70,F,72,138/76,97.7,97,"shortness of breath, dizziness",3
+P0101,44,F,65,110/74,98.8,96,"fever, cough",1
+P0102,39,F,69,114/79,98.1,97,"abdominal pain, fever",1
+P0103,29,M,61,128/88,98.5,97,"headache, abdominal pain",1
+P0104,43,M,67,127/70,97.5,99,"chest pain, dizziness",1
+P0105,26,F,78,123/77,98.9,98,"fatigue, fever",0
+P0106,63,M,85,145/83,97.8,98,"shortness of breath, anxiety",3
+P0107,71,M,83,127/84,98.2,96,"shortness of breath, anxiety",2
+P0108,27,F,84,118/72,98.2,96,"anxiety, chest pain",0
+P0109,55,F,66,127/71,99.1,99,"fatigue, fever",3
+P0110,61,M,83,141/76,97.8,96,"shortness of breath, anxiety",3
+P0111,46,M,70,127/86,97.8,99,"nausea, fever",0
+P0112,66,M,65,132/88,97.9,98,"dizziness, fatigue",4
+P0113,71,F,81,137/75,98.8,99,"cough, fatigue",3
+P0114,46,M,66,112/79,98.0,97,"dizziness, nausea",1
+P0115,18,M,82,112/77,97.7,98,"shortness of breath, anxiety",0
+P0116,68,M,92,134/77,97.7,99,"chest pain, anxiety",4
+P0117,73,F,75,135/73,99.1,97,"cough, fatigue",4
+P0118,48,M,75,127/76,98.6,96,"joint pain, dizziness",0
+P0119,18,M,64,129/80,97.9,97,"dizziness, joint pain",1
+P0120,47,M,61,121/72,99.1,97,"cough, fatigue",2
+P0121,47,F,73,126/87,97.5,97,"cough, chest pain",0
+P0122,63,F,90,145/82,98.7,96,"fever, fatigue",3
+P0123,35,F,80,119/73,98.3,97,"abdominal pain, chest pain",0
+P0124,39,M,84,115/77,97.9,96,"shortness of breath, anxiety",0
+P0125,24,F,72,126/83,97.6,99,"joint pain, chest pain",0
+P0126,28,F,70,113/86,98.7,99,"fever, fatigue",0
+P0127,51,M,74,114/70,98.0,98,"chest pain, nausea",1
+P0128,60,F,68,111/78,97.6,96,"dizziness, shortness of breath",2
+P0129,67,M,76,131/88,98.0,97,"dizziness, fever",3
+P0130,74,M,81,134/81,98.4,99,"chest pain, shortness of breath",3
+P0131,48,M,76,114/85,98.9,96,"cough, fever",0
+P0132,29,M,68,122/84,97.6,99,"fatigue, abdominal pain",1
+P0133,70,M,73,138/85,97.7,98,"headache, shortness of breath",3
+P0134,56,M,73,112/81,97.7,97,"shortness of breath, chest pain",1
+P0135,42,M,77,110/85,98.2,99,"dizziness, fatigue",0
+P0136,35,F,62,116/83,98.1,97,"cough, abdominal pain",1
+P0137,56,F,64,110/86,97.7,97,"chest pain, cough",2
+P0138,63,M,73,134/86,98.2,99,"headache, chest pain",2
+P0139,63,F,75,149/82,99.2,98,"fever, fatigue",4
+P0140,37,M,81,128/82,97.7,98,"anxiety, chest pain",0
+P0141,43,M,76,112/75,98.9,97,"fatigue, fever",0
+P0142,66,M,67,139/86,97.8,97,"chest pain, shortness of breath",4
+P0143,30,F,74,118/73,98.5,97,"fever, dizziness",0
+P0144,51,F,69,118/84,98.6,96,"fatigue, fever",2
+P0145,51,F,74,115/77,98.7,99,"fever, cough",1
+P0146,23,M,75,122/74,99.2,97,"cough, fatigue",1
+P0147,79,M,83,145/72,98.1,97,"shortness of breath, chest pain",4
+P0148,62,M,70,143/88,99.0,99,"fatigue, cough",3
+P0149,76,F,73,132/80,97.9,96,"fever, nausea",3
+P0150,62,F,89,138/79,97.7,98,"anxiety, shortness of breath",2
+P0151,56,M,77,113/71,98.9,96,"fever, fatigue",1
+P0152,49,M,73,126/78,98.6,98,"headache, fatigue",0
+P0153,58,F,61,124/74,97.7,99,"dizziness, nausea",2
+P0154,27,F,60,127/87,99.2,98,"cough, fatigue",2
+P0155,53,M,62,129/81,97.5,98,"joint pain, fatigue",2
+P0156,51,F,61,113/86,97.7,96,"dizziness, headache",2
+P0157,31,F,81,120/72,99.1,99,"fatigue, cough",1
+P0158,64,F,69,146/89,98.2,96,"chest pain, joint pain",4
+P0159,78,M,81,144/81,98.5,99,"chest pain, shortness of breath",4
+P0160,77,F,89,136/77,98.8,97,"fever, cough",3
+P0161,24,M,71,112/89,98.9,96,"fever, cough",0
+P0162,24,M,71,129/73,98.4,99,"headache, shortness of breath",0
+P0163,30,M,67,127/87,98.3,98,"nausea, fever",1
+P0164,68,F,73,136/81,99.2,99,"fever, fatigue",4
+P0165,71,F,92,139/70,98.5,99,"chest pain, anxiety",4
+P0166,50,F,60,110/78,98.1,96,"headache, cough",1
+P0167,32,F,69,121/86,99.1,96,"fatigue, fever",2
+P0168,23,M,65,118/76,98.5,96,"nausea, headache",1
+P0169,24,M,79,125/73,98.5,97,"shortness of breath, dizziness",0
+P0170,71,F,87,131/82,98.3,98,"anxiety, chest pain",3
+P0171,72,F,68,132/77,99.0,96,"fever, fatigue",4
+P0172,68,F,82,125/87,98.6,96,"fatigue, cough",2
+P0173,20,F,69,128/72,97.9,97,"shortness of breath, abdominal pain",1
+P0174,41,F,64,113/81,98.8,99,"cough, fever",1
+P0175,68,F,73,123/71,98.3,97,"headache, abdominal pain",2
+P0176,78,F,67,132/87,98.6,98,"joint pain, abdominal pain",4
+P0177,19,M,64,114/75,98.3,97,"joint pain, abdominal pain",1
+P0178,76,M,89,147/71,99.0,96,"fatigue, fever",4
+P0179,57,F,83,113/82,97.9,98,"chest pain, shortness of breath",1
+P0180,20,F,73,125/79,98.3,99,"dizziness, fever",0
+P0181,71,F,92,144/80,98.8,96,"fatigue, cough",5
+P0182,66,F,76,143/84,99.0,99,"fatigue, fever",4
+P0183,37,F,73,111/78,98.4,99,"fever, fatigue",0
+P0184,50,M,78,123/81,97.8,96,"chest pain, fatigue",0
+P0185,74,M,88,134/80,98.3,99,"chest pain, anxiety",3
+P0186,40,F,72,129/85,99.1,99,"fever, fatigue",1
+P0187,67,M,65,142/77,97.8,97,"abdominal pain, fatigue",5
+P0188,67,F,81,145/77,99.0,96,"fever, fatigue",4
+P0189,42,F,63,110/70,97.9,99,"shortness of breath, cough",1
+P0190,23,M,68,110/78,99.2,96,"fatigue, cough",2
+P0191,30,M,68,120/73,98.6,97,"fever, cough",1
+P0192,55,M,65,111/87,99.0,98,"fatigue, fever",2
+P0193,28,M,83,116/84,98.6,97,"shortness of breath, chest pain",0
+P0194,38,M,84,110/86,98.4,98,"chest pain, anxiety",0
+P0195,28,M,67,123/83,98.6,97,"joint pain, dizziness",1
+P0196,42,F,64,111/85,98.5,99,"abdominal pain, headache",1
+P0197,38,M,70,125/84,97.6,98,"chest pain, dizziness",0
+P0198,51,F,63,125/89,98.6,96,"fever, fatigue",2
+P0199,52,F,75,119/73,98.7,97,"fatigue, cough",1
+P0200,21,F,84,120/76,98.7,97,"fatigue, fever",0
+P0201,48,M,83,126/79,97.8,99,"anxiety, chest pain",0
+P0202,71,M,76,143/82,98.6,98,"cough, joint pain",4
+P0203,32,F,83,119/77,98.8,96,"cough, fever",0
+P0204,54,F,77,128/73,98.2,97,"chest pain, nausea",1
+P0205,64,M,67,131/71,98.3,96,"joint pain, fever",3
+P0206,26,F,72,111/72,98.5,97,"shortness of breath, fever",0
+P0207,77,F,83,123/75,98.5,98,"anxiety, shortness of breath",2
+P0208,53,F,64,110/73,97.8,99,"abdominal pain, cough",2
+P0209,22,F,80,117/75,98.5,98,"abdominal pain, headache",0
+P0210,52,F,82,129/77,98.5,97,"shortness of breath, anxiety",1
+P0211,46,M,74,125/79,97.7,96,"nausea, abdominal pain",0
+P0212,40,F,78,117/74,98.8,99,"fatigue, cough",0
+P0213,47,M,79,115/87,98.8,99,"fatigue, cough",0
+P0214,33,F,65,129/71,97.6,99,"cough, fatigue",1
+P0215,74,M,65,130/72,98.2,98,"abdominal pain, headache",3
+P0216,39,F,64,129/79,98.4,96,"headache, abdominal pain",1
+P0217,20,F,66,129/83,97.6,96,"headache, dizziness",1
+P0218,27,M,61,110/73,98.5,96,"chest pain, fever",1
+P0219,25,M,61,113/84,99.1,99,"fatigue, cough",2
+P0220,31,F,77,115/80,98.6,99,"dizziness, headache",0
+P0221,19,F,70,127/84,99.2,98,"fatigue, cough",1
+P0222,38,M,73,128/76,98.7,99,"cough, fatigue",0
+P0223,21,M,67,126/74,98.5,99,"headache, chest pain",1
+P0224,78,M,71,146/83,97.8,96,"fatigue, abdominal pain",4
+P0225,32,M,69,116/74,97.9,96,"cough, dizziness",1
+P0226,53,M,62,126/80,98.3,99,"headache, cough",2
+P0227,52,M,79,115/79,98.8,96,"fatigue, cough",1
+P0228,34,F,68,118/70,98.9,99,"fatigue, cough",1
+P0229,27,F,67,120/71,98.2,97,"dizziness, fever",1
+P0230,61,M,87,124/77,97.6,96,"shortness of breath, chest pain",1
+P0231,18,M,78,112/86,99.1,96,"cough, fever",1
+P0232,63,F,75,139/84,99.1,98,"fatigue, fever",3
+P0233,75,M,69,149/77,98.0,97,"fatigue, dizziness",5
+P0234,66,F,94,123/83,97.6,96,"anxiety, chest pain",3
+P0235,79,M,82,129/73,98.0,99,"chest pain, anxiety",2
+P0236,30,M,75,111/80,97.6,96,"nausea, dizziness",0
+P0237,67,F,84,149/89,97.7,99,"chest pain, shortness of breath",4
+P0238,66,F,85,122/76,98.9,96,"fever, fatigue",2
+P0239,38,M,80,117/83,98.7,98,"fever, fatigue",0
+P0240,49,M,81,120/82,97.8,96,"shortness of breath, anxiety",0
+P0241,69,M,82,134/88,97.8,99,"anxiety, shortness of breath",3
+P0242,60,M,60,112/88,97.8,97,"cough, joint pain",2
+P0243,22,M,60,113/77,97.8,99,"shortness of breath, chest pain",1
+P0244,44,M,61,118/85,98.8,99,"fever, cough",1
+P0245,43,F,81,121/86,97.5,96,"anxiety, chest pain",0
+P0246,74,F,75,135/88,98.9,97,"fatigue, fever",3
+P0247,75,F,79,148/73,98.7,99,"cough, fever",4
+P0248,43,M,65,117/76,97.5,97,"cough, shortness of breath",1
+P0249,41,M,75,129/73,97.6,99,"abdominal pain, nausea",0
+P0250,63,M,86,143/82,98.8,97,"cough, fever",3
+P0251,48,F,78,125/82,97.8,98,"abdominal pain, nausea",0
+P0252,28,M,81,122/70,98.2,99,"shortness of breath, chest pain",0
+P0253,32,F,74,123/80,98.8,97,"fatigue, cough",0
+P0254,69,M,74,137/72,97.5,96,"fatigue, fever",3
+P0255,52,F,78,114/74,98.3,96,"abdominal pain, headache",1
+P0256,67,M,65,143/73,98.8,97,"fever, cough",5
+P0257,61,F,89,139/73,97.5,99,"chest pain, anxiety",2
+P0258,39,F,66,112/83,97.9,99,"chest pain, fever",1
+P0259,35,F,70,113/87,98.2,98,"headache, chest pain",0
+P0260,73,F,78,144/74,99.2,97,"fatigue, cough",5
+P0261,40,F,64,126/88,98.0,96,"dizziness, shortness of breath",1
+P0262,24,F,82,110/86,99.2,96,"fever, cough",1
+P0263,75,M,73,126/86,98.4,97,"shortness of breath, cough",2
+P0264,74,F,74,121/85,98.2,96,"nausea, headache",2
+P0265,68,M,81,126/89,98.4,99,"chest pain, anxiety",2
+P0266,39,M,83,117/84,99.0,99,"cough, fever",0
+P0267,78,M,72,145/86,97.5,96,"dizziness, nausea",4
+P0268,56,F,82,127/80,98.8,98,"fever, fatigue",1
+P0269,29,F,67,118/73,98.0,99,"headache, cough",1
+P0270,19,M,75,112/82,99.0,97,"fever, fatigue",1
+P0271,55,M,60,117/74,98.7,99,"fatigue, fever",2
+P0272,21,F,65,123/88,99.0,99,"fever, fatigue",2
+P0273,72,F,65,132/82,98.0,99,"fatigue, fever",4
+P0274,42,F,61,114/72,97.8,96,"chest pain, nausea",1
+P0275,19,M,71,121/78,98.1,97,"abdominal pain, nausea",0
+P0276,73,F,94,120/72,97.7,96,"shortness of breath, chest pain",3
+P0277,35,F,70,125/86,98.9,98,"cough, fever",0
+P0278,44,M,60,129/85,97.7,98,"cough, fever",1
+P0279,72,M,67,123/84,98.0,98,"dizziness, abdominal pain",3
+P0280,26,M,72,124/87,98.6,97,"fatigue, fever",0
+P0281,40,M,61,123/75,97.9,96,"fever, nausea",1
+P0282,57,F,73,115/85,98.7,97,"fatigue, fever",1
+P0283,59,M,68,129/82,99.1,98,"fatigue, cough",3
+P0284,77,M,89,147/88,99.0,97,"cough, fever",4
+P0285,78,F,72,136/78,97.5,99,"joint pain, fever",3
+P0286,47,M,63,113/77,99.0,96,"fever, cough",1
+P0287,58,F,82,125/86,98.0,99,"shortness of breath, chest pain",1
+P0288,63,F,85,140/74,97.9,96,"chest pain, shortness of breath",2
+P0289,50,M,68,118/73,99.0,97,"cough, fatigue",1
+P0290,62,M,79,127/81,99.0,97,"fatigue, fever",2
+P0291,58,M,79,117/88,98.3,96,"headache, joint pain",1
+P0292,62,M,86,131/71,98.0,98,"shortness of breath, chest pain",2
+P0293,18,F,82,115/75,99.0,97,"fatigue, cough",1
+P0294,29,F,67,128/79,99.2,96,"fatigue, cough",2
+P0295,52,F,73,112/85,98.0,99,"nausea, fever",1
+P0296,56,M,80,126/79,98.0,97,"fever, cough",1
+P0297,76,M,87,128/76,98.3,98,"anxiety, chest pain",2
+P0298,28,M,73,122/70,98.2,98,"fever, cough",0
+P0299,43,M,64,117/83,97.6,96,"cough, abdominal pain",1
+P0300,53,F,64,128/84,98.2,99,"shortness of breath, nausea",2
+P0301,46,M,69,111/88,98.5,97,"nausea, shortness of breath",1
+P0302,70,F,93,125/72,98.4,99,"anxiety, chest pain",3
+P0303,58,F,71,112/80,98.3,96,"fatigue, fever",1
+P0304,45,M,81,120/87,98.2,96,"shortness of breath, chest pain",0
+P0305,70,F,90,149/81,98.9,98,"fever, fatigue",4
+P0306,61,M,73,142/77,99.0,99,"cough, fever",4
+P0307,74,F,68,147/70,98.4,97,"joint pain, fever",5
+P0308,36,M,69,127/72,98.1,98,"cough, abdominal pain",1
+P0309,48,F,76,122/87,98.3,99,"headache, dizziness",0
+P0310,60,F,69,128/87,98.0,96,"dizziness, cough",2
+P0311,40,F,63,127/78,99.2,96,"fatigue, fever",2
+P0312,79,F,81,132/85,98.8,96,"fatigue, cough",3
+P0313,66,M,66,132/88,98.1,97,"fever, abdominal pain",4
+P0314,21,M,60,112/82,98.6,98,"dizziness, chest pain",1
+P0315,41,F,78,114/76,98.2,99,"fever, abdominal pain",0
+P0316,51,M,81,122/84,99.0,96,"cough, fever",1
+P0317,56,F,64,126/89,98.3,97,"chest pain, abdominal pain",2
+P0318,72,F,68,125/80,97.8,99,"nausea, fatigue",3
+P0319,35,F,78,124/84,98.5,96,"fever, joint pain",0
+P0320,49,F,78,115/72,98.3,96,"headache, fatigue",0
+P0321,59,F,80,125/81,98.9,99,"fever, fatigue",1
+P0322,47,M,74,112/88,97.8,97,"fever, abdominal pain",0
+P0323,18,M,64,122/77,99.1,99,"fatigue, cough",2
+P0324,18,F,62,111/77,98.2,97,"abdominal pain, fever",1
+P0325,51,M,78,115/85,98.7,96,"fever, fatigue",1
+P0326,59,F,75,115/71,97.6,96,"fatigue, nausea",1
+P0327,70,M,65,136/78,97.9,96,"fatigue, shortness of breath",4
+P0328,72,M,94,129/79,98.9,97,"fever, cough",3
+P0329,67,F,78,139/84,98.4,98,"cough, headache",3
+P0330,28,M,71,126/84,97.7,96,"nausea, fatigue",0
+P0331,58,F,64,121/80,98.9,98,"fatigue, fever",2
+P0332,44,F,71,113/73,99.0,98,"fatigue, cough",1
+P0333,66,F,80,143/81,98.6,96,"cough, fever",4
+P0334,43,M,60,119/84,97.8,96,"fever, joint pain",1
+P0335,47,M,80,129/88,98.6,96,"shortness of breath, fever",0
+P0336,35,F,73,112/81,97.5,98,"chest pain, cough",0
+P0337,55,M,81,110/73,98.7,96,"cough, fatigue",1
+P0338,26,F,67,116/73,98.8,99,"fever, cough",1
+P0339,61,M,92,127/70,99.0,99,"fatigue, fever",3
+P0340,30,M,76,119/81,97.7,97,"joint pain, cough",0
+P0341,52,M,62,124/75,98.4,97,"dizziness, chest pain",2
+P0342,18,F,82,125/84,97.9,99,"chest pain, anxiety",0
+P0343,44,F,80,119/84,98.9,97,"cough, fatigue",0
+P0344,24,F,80,110/76,98.1,97,"dizziness, fever",0
+P0345,50,M,84,117/82,98.2,99,"shortness of breath, chest pain",0
+P0346,58,M,61,111/82,98.8,98,"fever, cough",2
+P0347,43,F,68,114/89,98.4,98,"nausea, shortness of breath",1
+P0348,43,M,69,122/88,97.7,96,"fever, dizziness",1
+P0349,64,F,70,143/84,97.6,97,"chest pain, shortness of breath",3
+P0350,71,M,82,125/71,97.9,96,"anxiety, chest pain",2
+P0351,63,M,70,125/87,98.4,97,"fever, abdominal pain",1
+P0352,65,M,77,137/80,98.2,99,"headache, fever",2
+P0353,79,M,76,130/74,98.2,98,"fatigue, headache",2
+P0354,76,M,66,136/80,98.2,99,"shortness of breath, headache",4
+P0355,60,M,76,129/87,98.8,97,"fatigue, cough",1
+P0356,27,F,64,119/80,97.6,97,"abdominal pain, fatigue",1
+P0357,20,F,72,122/79,99.0,97,"fatigue, fever",1
+P0358,51,M,60,116/86,98.6,99,"dizziness, fatigue",2
+P0359,62,F,93,139/87,98.6,97,"cough, fatigue",3
+P0360,43,M,79,129/79,98.9,96,"fatigue, cough",0
+P0361,75,M,81,141/71,98.7,96,"cough, fatigue",4
+P0362,22,F,70,128/72,98.1,98,"fatigue, joint pain",0
+P0363,40,F,79,124/87,97.8,96,"nausea, chest pain",0
+P0364,21,F,74,112/74,98.3,98,"dizziness, cough",0
+P0365,20,F,84,126/89,98.2,96,"chest pain, shortness of breath",0
+P0366,70,F,73,144/75,97.6,97,"headache, fever",4
+P0367,68,F,79,123/81,97.9,98,"cough, headache",2
+P0368,42,F,78,123/85,99.0,97,"fever, fatigue",1
+P0369,73,F,85,141/77,98.6,98,"fatigue, fever",4
+P0370,59,F,61,118/86,99.1,97,"cough, fever",3
+P0371,34,F,75,129/84,98.7,96,"cough, fatigue",0
+P0372,66,M,89,138/73,99.2,98,"fever, cough",4
+P0373,32,F,66,115/70,97.7,97,"joint pain, dizziness",1
+P0374,23,F,79,129/72,97.7,96,"joint pain, shortness of breath",0
+P0375,36,M,79,112/77,98.9,96,"fever, cough",0
+P0376,78,M,68,143/88,98.7,96,"cough, fatigue",5
+P0377,36,M,60,114/85,99.0,96,"cough, fever",1
+P0378,36,F,75,120/79,98.9,98,"fever, fatigue",0
+P0379,73,F,83,144/74,97.6,97,"shortness of breath, chest pain",4
+P0380,67,F,87,138/88,97.5,99,"shortness of breath, anxiety",3
+P0381,29,F,80,120/74,98.1,96,"joint pain, chest pain",0
+P0382,79,F,80,128/88,98.7,98,"fever, cough",2
+P0383,64,M,68,120/82,98.8,98,"fatigue, fever",2
+P0384,31,M,78,129/87,99.1,96,"cough, fatigue",1
+P0385,43,F,69,126/71,99.2,96,"cough, fever",2
+P0386,22,F,79,118/86,98.1,99,"dizziness, nausea",0
+P0387,41,F,65,120/76,97.8,98,"chest pain, fever",1
+P0388,52,M,61,111/72,98.1,98,"chest pain, fever",2
+P0389,19,M,63,110/88,97.7,97,"abdominal pain, headache",1
+P0390,62,F,65,136/82,98.5,96,"shortness of breath, dizziness",3
+P0391,59,F,65,125/75,97.7,97,"chest pain, abdominal pain",2
+P0392,64,M,68,148/78,98.2,98,"joint pain, fatigue",4
+P0393,56,M,80,124/89,97.5,98,"chest pain, joint pain",1
+P0394,67,M,94,145/70,98.6,97,"fever, cough",5
+P0395,72,F,82,125/88,98.3,98,"anxiety, shortness of breath",2
+P0396,63,M,74,125/70,97.9,98,"abdominal pain, fatigue",1
+P0397,42,M,76,110/74,98.6,99,"fatigue, fever",0
+P0398,19,M,70,115/77,98.3,99,"fatigue, joint pain",0
+P0399,21,F,66,120/73,97.9,96,"fatigue, abdominal pain",1
+P0400,38,F,64,126/79,99.1,97,"fatigue, fever",2
+P0401,62,M,84,138/72,98.9,96,"fever, fatigue",2
+P0402,59,M,84,129/82,98.0,99,"chest pain, shortness of breath",1
+P0403,22,F,73,119/86,98.4,98,"fever, fatigue",0
+P0404,39,M,81,114/79,99.0,99,"fever, fatigue",1
+P0405,20,F,84,118/84,98.6,96,"fever, cough",0
+P0406,64,F,87,132/86,98.8,96,"cough, fever",2
+P0407,23,F,77,110/86,98.2,99,"nausea, headache",0
+P0408,59,F,70,123/76,97.6,97,"fever, nausea",1
+P0409,50,F,60,128/72,98.7,98,"cough, fever",1
+P0410,46,F,61,128/82,99.0,97,"cough, fatigue",1
+P0411,64,M,80,136/76,97.7,97,"abdominal pain, dizziness",2
+P0412,66,M,85,120/86,98.5,98,"shortness of breath, anxiety",2
+P0413,78,M,79,148/80,98.7,99,"cough, fatigue",4
+P0414,45,M,83,110/85,97.8,99,"chest pain, shortness of breath",0
+P0415,58,M,73,128/88,99.0,96,"fatigue, fever",1
+P0416,28,M,73,117/87,99.0,99,"fever, cough",1
+P0417,25,F,65,121/84,98.4,99,"cough, chest pain",1
+P0418,32,F,69,112/88,97.6,97,"headache, fever",1
+P0419,48,M,70,111/86,98.1,98,"cough, nausea",0
+P0420,65,M,94,126/89,97.7,96,"chest pain, shortness of breath",2
+P0421,61,M,91,126/78,98.1,97,"anxiety, shortness of breath",2
+P0422,34,F,82,112/73,98.9,96,"fever, cough",0
+P0423,59,F,69,122/80,98.0,99,"headache, dizziness",2
+P0424,27,F,70,124/85,97.6,97,"nausea, abdominal pain",0
+P0425,74,M,67,125/72,98.6,96,"headache, shortness of breath",3
+P0426,49,M,82,115/89,98.8,99,"cough, fatigue",0
+P0427,25,M,64,115/72,98.9,99,"fever, cough",1
+P0428,65,F,89,143/83,99.0,99,"fatigue, fever",4
+P0429,24,F,72,115/87,98.9,98,"cough, fatigue",0
+P0430,78,F,70,135/89,99.0,96,"fatigue, fever",4
+P0431,49,M,69,112/82,98.3,98,"shortness of breath, joint pain",1
+P0432,47,M,75,112/75,97.5,99,"abdominal pain, nausea",0
+P0433,22,M,69,128/73,99.2,98,"fatigue, fever",2
+P0434,19,F,70,129/85,98.5,99,"shortness of breath, joint pain",0
+P0435,67,F,86,136/79,98.7,96,"cough, fever",3
+P0436,49,M,77,127/80,97.8,96,"nausea, shortness of breath",0
+P0437,36,M,66,113/70,97.8,99,"abdominal pain, cough",1
+P0438,37,F,75,110/80,98.3,99,"headache, chest pain",0
+P0439,30,M,61,114/86,98.0,99,"chest pain, fever",1
+P0440,43,F,76,129/89,97.9,97,"dizziness, fever",0
+P0441,54,F,76,124/77,99.1,96,"fever, cough",2
+P0442,37,F,66,121/86,98.6,97,"cough, fever",1
+P0443,36,F,70,111/87,98.2,97,"nausea, chest pain",0
+P0444,20,M,84,117/77,98.2,99,"chest pain, shortness of breath",0
+P0445,28,F,67,119/76,98.1,99,"cough, headache",1
+P0446,41,M,83,111/80,98.5,99,"anxiety, chest pain",0
+P0447,55,F,67,123/72,97.5,99,"fatigue, nausea",2
+P0448,73,F,73,141/82,98.1,97,"joint pain, dizziness",4
+P0449,37,F,80,127/82,98.8,98,"cough, fever",0
+P0450,77,M,89,122/85,98.2,98,"chest pain, shortness of breath",2
+P0451,76,M,94,127/82,99.0,96,"cough, fatigue",4
+P0452,36,M,84,123/73,99.1,99,"fatigue, cough",1
+P0453,49,M,65,115/72,97.9,96,"chest pain, cough",1
+P0454,52,F,62,121/86,98.7,96,"fatigue, fever",2
+P0455,79,F,89,128/89,97.9,97,"shortness of breath, anxiety",2
+P0456,59,F,76,129/89,98.8,97,"fatigue, cough",1
+P0457,32,M,76,117/87,99.1,98,"fever, cough",1
+P0458,25,M,74,122/76,97.5,99,"fatigue, nausea",0
+P0459,49,F,73,127/82,98.6,97,"cough, fatigue",0
+P0460,72,M,72,138/89,98.6,99,"fever, cough",3
+P0461,48,M,82,129/70,99.0,96,"cough, fever",0
+P0462,18,F,62,120/71,97.9,99,"nausea, fever",1
+P0463,59,F,78,120/76,97.7,96,"fatigue, cough",1
+P0464,68,F,72,128/86,97.9,98,"dizziness, abdominal pain",2
+P0465,23,M,83,115/71,98.6,96,"chest pain, shortness of breath",0
+P0466,21,F,76,120/73,99.1,99,"fever, cough",1
+P0467,34,M,63,123/88,98.0,98,"chest pain, abdominal pain",1
+P0468,29,F,83,125/87,99.1,99,"fatigue, fever",1
+P0469,64,F,88,131/83,98.3,98,"anxiety, chest pain",2
+P0470,75,F,94,141/79,99.0,99,"cough, fever",6
+P0471,20,F,64,112/85,98.8,98,"fatigue, cough",1
+P0472,61,F,79,121/87,99.0,98,"fever, fatigue",2
+P0473,72,F,65,141/71,97.8,97,"dizziness, cough",5
+P0474,69,F,93,134/83,98.5,97,"shortness of breath, anxiety",4
+P0475,41,M,64,115/86,97.6,99,"headache, dizziness",1
+P0476,40,F,62,117/87,98.5,99,"fatigue, abdominal pain",1
+P0477,72,M,88,146/82,98.5,96,"shortness of breath, anxiety",4
+P0478,65,F,65,127/88,98.6,99,"fever, fatigue",2
+P0479,30,M,67,118/76,99.1,96,"fever, fatigue",2
+P0480,72,M,84,144/81,98.4,97,"shortness of breath, anxiety",4
+P0481,18,M,84,119/79,98.9,96,"fever, cough",0
+P0482,52,M,75,117/84,97.6,97,"chest pain, fatigue",1
+P0483,31,M,67,124/82,98.3,96,"chest pain, joint pain",1
+P0484,51,F,74,114/89,97.9,98,"abdominal pain, dizziness",1
+P0485,36,M,70,124/81,98.7,98,"fever, fatigue",0
+P0486,53,M,75,121/77,98.0,96,"nausea, abdominal pain",1
+P0487,75,F,78,124/85,97.9,97,"nausea, abdominal pain",2
+P0488,49,M,61,112/77,98.4,98,"dizziness, headache",1
+P0489,74,F,67,149/79,98.0,97,"dizziness, headache",5
+P0490,40,M,65,123/81,98.1,98,"joint pain, cough",1
+P0491,73,M,67,129/80,98.7,99,"fever, fatigue",3
+P0492,34,M,78,114/75,98.2,96,"joint pain, headache",0
+P0493,26,F,71,123/70,98.2,98,"shortness of breath, fatigue",0
+P0494,69,F,87,149/71,97.8,99,"shortness of breath, chest pain",4
+P0495,27,F,69,123/78,97.6,98,"nausea, shortness of breath",1
+P0496,62,M,87,136/71,99.1,97,"fever, cough",3
+P0497,76,M,80,136/88,98.2,96,"abdominal pain, nausea",3
+P0498,56,F,61,124/77,99.0,98,"fever, fatigue",3
+P0499,57,F,71,122/80,98.9,96,"cough, fatigue",1
+P0500,53,M,67,114/85,97.8,97,"abdominal pain, cough",2

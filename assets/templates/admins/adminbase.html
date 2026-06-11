@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Medify-AI based LLM Based Healthcare System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <span class="text-xl font-extrabold text-blue-700 tracking-wide">
+                    Medify-AI based LLM
+                </span>
+            </div>
+            <!-- Links -->
+            <div class="flex items-center space-x-6">
+                <a href="{% url 'AdminHome' %}" class="text-gray-700 hover:text-blue-600">Home</a>
+                <a href="{% url 'RegisterUsersView' %}" class="text-gray-700 hover:text-blue-600">Users view</a>
+                <a href="{% url 'index' %}" class="text-gray-700 hover:text-blue-600">Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-24 mt-16">
+    <div class="max-w-4xl mx-auto text-center px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-fadeIn">
+            Medify-AI based LLM Based Healthcare System
+        </h1>
+        <p class="text-lg md:text-xl font-light">
+
+        </p>
+    </div>
+</header>
+
+<!-- Content Section -->
+<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white rounded-xl shadow-md mt-8">
+    {% block contents %}
+    <!-- Your dynamic content goes here -->
+    {% endblock %}
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 py-6 mt-12">
+    <div class="max-w-6xl mx-auto text-center text-sm">
+        <p>&copy; 2026 Medify-AI based LLM | All rights reserved</p>
+        <p class="mt-1">
+            <a href="#" class="hover:text-white transition">Privacy Policy</a>
+            ·
+            <a href="#" class="hover:text-white transition">Terms of Service</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Simple Animation -->
+<style>
+    @keyframes fadeIn {
+        from {opacity:0; transform: translateY(20px);}
+        to {opacity:1; transform: translateY(0);}
+    }
+    .animate-fadeIn {
+        animation: fadeIn 1.2s ease-in-out;
+    }
+</style>
+
+</body>
+</html>

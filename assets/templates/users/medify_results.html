@@ -1,0 +1,44 @@
+{% extends 'users/userbase.html'%}
+{%load static%}
+{%block contents%}
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<section class="py-12 px-6 max-w-5xl mx-auto bg-white rounded-xl shadow-md mt-10">
+      <div class="bg-gray-100 text-gray-800 font-sans">
+    <h1 class="text-4xl font-bold mb-6 text-blue-700">Overview Results</h1>
+
+    <h1 class="text-3xl font-bold text-blue-700 mb-4">Medify-AI Healthcare Dashboard</h1>
+
+<div class="bg-white p-4 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-2">Patient Summary</h2>
+    <p>Total Patients: {{ results.patient_summary.total_patients }}</p>
+    <p>Average Age: {{ results.patient_summary.avg_age|floatformat:1 }}</p>
+    <p>Average Risk Score: {{ results.patient_summary.avg_risk|floatformat:2 }}</p>
+</div>
+
+<div class="bg-white p-4 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-2">Sample Recommendation</h2>
+    <p><strong>Condition:</strong> {{ results.recommendation.condition_name }}</p>
+    <p><strong>Risk Level:</strong> {{ results.recommendation.risk_level }}</p>
+    <p><strong>Urgency:</strong> {{ results.recommendation.urgency_level }}</p>
+    <p><strong>Treatment:</strong> {{ results.recommendation.treatment_recommendations|join:", " }}</p>
+</div>
+
+<div class="bg-white p-4 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-2">Top Symptoms</h2>
+    <ul>
+        {% for symptom, count in results.top_symptoms.items %}
+            <li>{{ symptom }} — {{ count }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="bg-white p-4 rounded shadow">
+    <h2 class="text-xl font-semibold mb-2">Analysis Charts</h2>
+    {% for chart in results.charts %}
+        <img src="{{ chart }}" class="my-4 rounded border" />
+    {% endfor %}
+</div>
+  </div>
+
+{%endblock%}
